@@ -1,8 +1,15 @@
 import java.time.LocalDateTime;
+import java.time.ZonedDateTime;
 
-class Sample {
+public class Sample {
 	public static void main(String[] args) {
 		LocalDateTime localtime = LocalDateTime.now();
-		System.out.println(localtime);
+		ZonedDateTime zone = ZonedDateTime.now();
+
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■            " + localtime + "               ■");
+		System.out.println("■                                                  ■");
+		System.out.println("■     " + zone      + "    ■");
+		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 	}
 }
