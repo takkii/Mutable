@@ -7,9 +7,11 @@ public class Sample {
 		ZonedDateTime zone = ZonedDateTime.now();
 
 		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■");
+		System.out.println("■                                                  ■");
 		System.out.println("■            " + localtime + "               ■");
 		System.out.println("■                                                  ■");
 		System.out.println("■     " + zone      + "    ■");
+		System.out.println("■                                                  ■");
 		System.out.println("■■■■■■■■■■■■■■■■■■■■■■■■■■■");
 	}
 }
